@@ -1,5 +1,5 @@
 ### ACM_UrlShortener_summerproject
-the purpose of this project is to give user a shortened URL , clicking on which will redirect the user to same webpage as that of given URL and also to track the number of times a particular url is clicked. The search functionality is also added to search from already shortened URLs.
+URL shortening tools convert long, complex URLs into shorter, more concise ones. They are beneficial for sharing links on social media due to character limits. Shortened URLs are easier to read, visually appealing, and encourage click-through rates. Additionally, these tools often provide analytics to track link clicks, allowing you to measure the success of your marketing campaigns. 
 
 ## Installation
 
