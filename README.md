@@ -6,8 +6,9 @@ before starting install latest versions of Node.js,Mongoose,express,
 
 ## Installation the dependecies
 
-for the run the command in terminal - npm i express mongoose ejs shortid
- and for nodemon  - npm i --save-dev nodemon
+for the run the command in terminal => npm i express mongoose ejs shortid
+
+and for nodemon  => npm i --save-dev nodemon
 
 ## Getting Started
 for creating a server , add a script : "devStart": "nodemon.js" in the package file.
