@@ -19,10 +19,9 @@ save this file and in terminal give command - npm run devStart
 
 ## Internal Working
 
-After starting the server , work on back end starts using HTML main outline of file , using bootstrap overall UI , like fonts,spacing,and colurs are defined When we input some URL to be shortened and the note corresponding to it than a post request is send to backend to short the URL using shortid functionality and add original URL , Note , shortened URL and the number of clicks to the database and display it on the main webpage.
-
-
-the number of clicks on one URL are also displayed on homepage and on refreshing the page we can see the changes.MonogDB database is setup and linked, To enable database functionality, we created a Schema object to define the structure of the data we want to store. Using mongoose.model(), we then created a model based on that Schema object. This model allows us to perform various database operations on the corresponding collection. For implementing search functionality, when we enter text in the search bar, the search request is processed, and we use the find() function to retrieve filtered data from the database. The find() function helps us fetch the relevant data based on the search criteria provided.
+After starting the server , work on back end starts using HTML main outline of file , using bootstrap overall UI ,like fonts,spacing,and colurs are defined 
+When we input some URL to be shortened and the note corresponding to it than a post request is send to backend to short the URL using shortid functionality and add original URL , Note , shortened URL and the number of clicks to the database and display it on the main webpage.The number of clicks on one URL are also displayed on homepage and on refreshing the page we can see the changes.
+MonogDB database is setup and linked, To enable database functionality, we created a Schema object to define the structure of the data we want to store. Using mongoose.model(), we then created a model based on that Schema object. This model allows us to perform various database operations on the corresponding collection. For implementing search functionality, when we enter text in the search bar, the search request is processed, and we use the find() function to retrieve filtered data from the database. The find() function helps us fetch the relevant data based on the search criteria provided.
 
 
 The search feature is applied to fullurl , note and the shortUrl also for the user convenience.
